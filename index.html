@@ -5,18 +5,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nina(Zhuxiaona) Wei | MHCID student at University of Washington</title>
+    <title>Nina(Zhuxiaona) Wei | MHCID student at University of Washington, Fight for UX Unicorn</title>
+    <link rel="shortcut icon" href="images/nina.jpg" />
 
     <meta name="author" content="Nina(Zhuxiaona) Wei" />
     <meta name="copyright" content="All content (c) Nina(Zhuxiaona) Wei" />
-    <meta name="description" content="Nina(Zhuxiaona) Wei is a MHCI student at University of Washington fighting for UX Unicorn" />
-    <meta name="keywords" content="design, HCI, web, mobile, UX, interaction" />
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <meta name="description" content="Nina(Zhuxiaona) Wei is a MHCID student at University of Washington fighting for UX Unicorn" />
+    <meta name="keywords" content="design, HCI, web, mobile, UX, interaction, psychology" />
 
     <!-- Style Sheets -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/foundation.topbar.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -25,6 +26,7 @@
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/smoothscroll.js"></script>
+
 
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript">
@@ -39,191 +41,217 @@
       })();
     </script>
 
+    <!--<script type="text/javascript">
+    $(document).ready(function() {
+      // grab the initial top offset of the navigation 
+        var stickyNavTop = $('.nav').offset().top;
+        
+        // our function that decides weather the navigation bar should have "fixed" css position or not.
+        var stickyNav = function(){
+          var scrollTop = $(window).scrollTop(); // our current vertical position from the top
+               
+          // if we've scrolled more than the navigation, change its position to fixed to stick to top,
+          // otherwise change it back to relative
+          if (scrollTop > stickyNavTop) { 
+              $('.nav').addClass('sticky');
+          } else {
+              $('.nav').removeClass('sticky'); 
+          }
+      };
+
+      stickyNav();
+      // and run it again every time you scroll
+      $(window).scroll(function() {
+        stickyNav();
+      });
+    });
+  </script>-->
+
   </head>
 
   <body>
- <div class="row">
-  <div class="large-12 columns">
- 
-    <!-- Navigation -->
-      <nav class="top-bar" data-topbar>
-        <ul class="title-area">
-          <!-- Title Area -->
-          <li class="name">
-            <h1>
-              <a href="#">
-                Top Bar Title
+    <section id="intro" class="bg">
+     <div class="nav" data-options="sticky_on: small">
+      <div class="row">
+        <div class="six columns">
+          <a href="#about" class="smoothScroll">About</a>
+          <a href="#portfolio" class="smoothScroll">Portfolio</a>
+          <a href="#contact" class="smoothScroll">Contact</a>
+        </div>
+      </div>
+    </div>
+        <div class="row">
+          <div class="six columns" id="header">
+            <h1>Hi, I am Nina Wei</h1>
+            <div calss="clear"></div>
+          </div>
+          <div class="six columns">
+            <p class="intro_text">
+              A graduate student from Master of HCI+Design at University of Washington, with a background in Applied Psychology. I am fighting hard for UX Unicorn.
+            </p>
+          </div>
+        </div>
+      <div class="nav_bg">
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>Portfolio</h1>
+        </div>
+      </div>
+
+
+      <div class="row">
+      <!--
+        <div class="large-3 small-6 columns">
+          <img src="images/Main_Famissy.jpg" />
+          <h6 class="panel">Description</h6>
+        </div>
+      -->
+
+        <div class="twelve columns">
+          <ul class="works">
+            <li>
+              <a href="001.html">
+                <div class="hover">
+                  <h3>PROJECT 1</h3>
+                  <h5 class="tags"><span>UI</span><span>UX</span><span>Data-vis</span><span>Interaction</span></h5>
+                </div>
+                <img src="images/001.jpg">
               </a>
-            </h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-        </ul>
- 
-        <section class="top-bar-section">
-          <ul class="left">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-          </ul>
- 
-          <ul class="right">
-            <li class="search">
-              <form>
-                <input type="search">
-              </form>
+
             </li>
- 
-            <li class="has-button">
-              <a class="small button" href="#">Search</a>
+            <li>
+              <a href="002.html">
+                <div class="hover">
+                  <h3>PROJECT 1</h3>
+                  <h5 class="tags"><span>UI</span><span>UX</span><span>Data-vis</span><span>Interaction</span></h5>
+                </div>
+                <img src="images/002.jpg">
+              </a>
             </li>
+            <li>
+              <a href="003.html">
+                <div class="hover">
+                  <h3>PROJECT 1</h3>
+                  <h5 class="tags"><span>UI</span><span>UX</span><span>Data-vis</span><span>Interaction</span></h5>
+                </div>
+                <img src="images/003.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="004.html">
+                <div class="hover">
+                  <h3>PROJECT 1</h3>
+                  <h5 class="tags"><span>UI</span><span>UX</span><span>Data-vis</span><span>Interaction</span></h5>
+                </div>
+                <img src="images/004.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="005.html">
+                <div class="hover">
+                  <h3>PROJECT 1</h3>
+                  <h5 class="tags"><span>UI</span><span>UX</span><span>Data-vis</span><span>Interaction</span></h5>
+                </div>
+                <img src="images/005.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="006.html">
+                <div class="hover">
+                  <h3>PROJECT 1</h3>
+                  <h5 class="tags"><span>UI</span><span>UX</span><span>Data-vis</span><span>Interaction</span></h5>
+                </div>
+                <img src="images/006.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="006.html">
+                <div class="hover">
+                  <h3>PROJECT 1</h3>
+                  <h5 class="tags"><span>UI</span><span>UX</span><span>Data-vis</span><span>Interaction</span></h5>
+                </div>
+                <img src="images/006.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="006.html">
+                <div class="hover">
+                  <h3>PROJECT 1</h3>
+                  <h5 class="tags"><span>UI</span><span>UX</span><span>Data-vis</span><span>Interaction</span></h5>
+                </div>
+                <img src="images/006.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="006.html">
+                <div class="hover">
+                  <h3>PROJECT 1</h3>
+                  <h5 class="tags"><span>UI</span><span>UX</span><span>Data-vis</span><span>Interaction</span></h5>
+                </div>
+                <img src="images/006.jpg">
+              </a>
+            </li>
+
           </ul>
-        </section>
-      </nav>
- 
-    <!-- End Navigation -->
-  
-    </div>
-  </div>
- 
- 
-  <div class="row">
-    <div class="large-12 columns">
- 
-    <!-- Desktop Slider -->
- 
-      <div class="hide-for-small">
-        <div id="featured">
-              <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-              <!-- <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-              <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image"> -->
-          </div>
         </div>
- 
-    <!-- End Desktop Slider -->
- 
- 
-    <!-- Mobile Header -->
- 
- 
-    <div class="row">
-      <div class="small-12 show-for-small"><br>
-        <img src="http://placehold.it/1000x600&text=For Small Screens" />
       </div>
-    </div>
- 
- 
-  <!-- End Mobile Header -->
- 
-    </div>
-  </div><br>
- 
-  <div class="row">
-    <div class="large-12 columns">
+    </section>
+
+ <section id="contact">
       <div class="row">
- 
-    <!-- Thumbnails -->
- 
-        <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail" />
-          <h6 class="panel">Description</h6>
+        <div class="twelve columns center">
+          <h4>If you're interested, feel free to contact me!</h4>
+          <h2 class="contact_link">
+            <a href="mailto: ningxia.z@gmail.com">
+            ningxia.z@gmail.com</a> / 
+            +1 (650) 704 - 0652
+          </h2>
+          <h4>Or connect with me on:</h4>
         </div>
- 
-        <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail" />
-          <h6 class="panel">Description</h6>
-        </div>
- 
-        <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail" />
-          <h6 class="panel">Description</h6>
-        </div>
- 
-        <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail" />
-          <h6 class="panel">Description</h6>
-        </div>
- 
-    <!-- End Thumbnails -->
- 
       </div>
-    </div>
-  </div>
- 
- 
- 
-  <div class="row">
-    <div class="large-12 columns">
-      <div class="row">
- 
-    <!-- Content -->
- 
-        <div class="large-8 columns">
-          <div class="panel radius">
- 
-          <div class="row">
-          <div class="large-6 small-6 columns">
- 
-            <h4>Header</h4><hr/>
-            <h5 class="subheader">Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio ornare sagittis.
-            </h5>
- 
-          <div class="show-for-small" align="center">
-            <a href="#" class="small radius button">Call To Action!</a><br>
- 
-            <a href="#" class="small radius button">Call To Action!</a>
-          </div>
- 
-          </div>
-          <div class="large-6 small-6 columns">
- 
-            <p>Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa. Aenean dolor libero, blandit quis interdum et, malesuada nec ligula. Nullam erat erat, eleifend sed pulvinar ac. Suspendisse ultrices ornare tempor. Aenean eget ultricies libero.
+      <div class="row social">
+        <div class="two columns center">
+          <a href="http://www.facebook.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/facebook.png"></a>
+        </div>
+        <div class="two columns center">
+          <a href="https://twitter.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/twitter.png"></a>
+        </div>
+        <div class="two columns center">
+          <a href="www.linkedin.com/pub/nina-zhuxiaona-wei/52/860/88b/"  target="_blank"><img class="social_icon" src="images/linkedin.png"></a>
+        </div>
+      </div>
+      
+      <div class="row credit">
+        <div class="eight columns">
+          <p class="contact_text">
+            This site is responsive, thanks to <a href="http://foundation.zurb.com/" target="_blank">Foundation</a> framework.
+          </p>
+          <p class="contact_text">
+            The fonts used on this site are <a href="http://www.cassannet.net/" target="_blank">Cassannet</a> (headers) and <a href="http://www.dotcolon.net/font/?id=vegur" href="_blank">Vegur</a> (body text).
+          </p>
+          <p class="contact_text">
+            The photographs of me (the background) and the thumbnail of Yogurt project are kindly provided by my good friend <a href="http://boruiwang.org/" target="_blank">Borui</a>.
           </p>
         </div>
- 
-        </div>
-        </div>
-        </div>
- 
-          <div class="large-4 columns hide-for-small">
- 
-          <h4>Get In Touch!</h4><hr/>
- 
-          <a class="large button expand" href="#">
-            Call To Action!
-          </a>
- 
-          <a class="large button expand" href="#">
-            Call To Action!
-          </a>
- 
- 
-        </div>
- 
-    <!-- End Content -->
- 
-      </div>
-    </div>
-  </div>
- 
-    <!-- Footer -->
- 
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr>
-      <div class="row">
-        <div class="large-6 columns">
-          <p>© Copyright no one at all. Go to town.</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-          </ul>
+        <div class="four columns">
+          <p class="contact_text">
+            Made on the lovely Stanford campus.<br>
+            More stuff will be added soon.<br>
+          </p>
+          <p class="contact_text">
+            © 2014 Nina(Zhuxiaona) Wei.<br>
+            All rights reserved.
+          </p>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
+
+    <footer>
+    </footer>
     
         
   </body>
