@@ -59,6 +59,33 @@ body{
 	font-family: Lato, sans-serif;
 }
 
+h1{
+	font-family: Lato;
+	font-size: 40px;
+	line-height: 60px;
+	opacity: 0.9;
+	color: #555;
+}
+
+/*body {
+    height: 1200px;    
+
+}
+.top-bar .right {
+    padding-top: 10px;
+}
+.top-bar {
+	width: auto;
+	padding: 15px 0;
+	min-height: 71px;
+}
+.contain-to-grid {
+	border-bottom: 2px solid #F4F4F4;
+}
+.contain-to-grid .top-bar {
+	max-width: 1024px;
+}
+*/
 /* Intro section */
 #intro{
 	background: url(../images/index_bg.jpg) no-repeat fixed;
@@ -99,7 +126,7 @@ body{
 	margin-left: 5%;
 	color: white;
 	font-weight: 300;
-}
+}   
 
 .nav{
 	font-size: 20px;
@@ -136,13 +163,6 @@ body{
 	padding: 30px 0;
 }
 
-#portfolio h1{
-	font-family: Lato;
-	font-size: 40px;
-	line-height: 60px;
-	opacity: 0.9;
-	color: #555;
-}
 
 span.quote{
 	font-family: Lato;
@@ -230,12 +250,12 @@ ul.works img{
 }
 
 /* About Section */
-#about{
+/*#about{
 	background-color: white;
-	min-height: 480px;
+	min-height: 10px;
 	padding: 30px 0;
 }
-
+*/
 #profile{
 	width: 180px;
 }
@@ -312,7 +332,7 @@ p.about_text{
 }
 
 .social_icon{
-	height: 30px;
+	height: 48px;
 }
 
 .social{
@@ -327,5 +347,18 @@ p.contact_text{
 	font-size: 15px;
 	line-height: 22px;
 	padding-bottom: 8px;
+	padding-left: 50px;
 	font-family: Lato;
+}
+footer {
+	background-color: #07C8EC;
+	opacity: 0.85;
+}
+
+h5{
+	font-size: 12px;
+	line-height: 12px;
+	padding: 20px 20px 20px 20px;
+	font-family: Lato;
+	color: white;
 }
