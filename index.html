@@ -14,72 +14,79 @@
     <meta name="keywords" content="design, HCI, web, mobile, UX, interaction, psychology" />
 
     <!-- Style Sheets -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Roboto+Slab:300,400' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Include JS Libraries -->
-    <script>$(document).foundation();</script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
+
+    <script src="js/foundation.min.js"></script>
+
+    <script src="/js/vendor/modernizr.js"></script>
+    <script src="/js/vendor/fastclick.js"></script>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/jquery.shuffle.js"></script>
-    <script src="js/foundation/foundation.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/foundation/foundation.topbar.js"></script>
-    <script src="js/smoothscroll.js"></script>
+
+    <!--<script src="js/smoothscroll.js"></script>-->
     
     <script type="text/javascript" src="js/main.js"></script>
+    <!-- Analytics -->
     <script type="text/javascript">
     var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-38614847-1']);
-      _gaq.push(['_trackPageview']);
+    _gaq.push(['_setAccount', 'UA-30961274-1']);
+    _gaq.push(['_trackPageview']);
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
     </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-      // grab the initial top offset of the navigation 
-        var stickyNavTop = $('.nav').offset().top;
-        
-        // our function that decides weather the navigation bar should have "fixed" css position or not.
-        var stickyNav = function(){
-          var scrollTop = $(window).scrollTop(); // our current vertical position from the top
-               
-          // if we've scrolled more than the navigation, change its position to fixed to stick to top,
-          // otherwise change it back to relative
-          if (scrollTop > stickyNavTop) { 
-              $('.nav').addClass('sticky');
-          } else {
-              $('.nav').removeClass('sticky'); 
-          }
-      };
-
-      stickyNav();
-      // and run it again every time you scroll
-      $(window).scroll(function() {
-        stickyNav();
-      });
-    });
-  </script>
-
   </head>
 
   <body>
+    <div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">My Site</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Right Button Active</a></li>
+      <li class="has-dropdown">
+        <a href="#">Right Button Dropdown</a>
+        <ul class="dropdown">
+          <li><a href="#">First link in dropdown</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Left Nav Button</a></li>
+    </ul>
+  </section>
+</nav>
+</div>
+<!--
     <section id="intro" class="bg">
       <div class="nav">
         <div class="row">
           <div class="six columns">
-            <a href="#portfolio" class="smoothScroll">Portfolio</a>
-            <a href="#about" class="smoothScroll">About</a>
-            <a href="Resume.pdf" class="smoothScroll">Resume</a>
-            <a href="#contact" class="smoothScroll">Contact</a>
+            <a href="#portfolio" class="smoothScroll">PORTFOLIO</a>
+            <a href="Resume.pdf" class="smoothScroll">RESUME</a>
+            <a href="https://medium.com/@weizhuxiaona" class="smoothScroll">UX BLOG</a>
           </div>
         </div>
       </div>
@@ -96,15 +103,17 @@
         </div>
       </div>
       <div class="nav_bg"></div>
-    </section>
+    </section> 
+  -->
 
     <section id="portfolio">
       <div class="row">
         <div class="twelve columns">
-          <h1>Portfolio</h1>
+          <h1>WORKS</h1>
         </div>
       </div>
- 
+
+    <!-- portfolio filter -->
     <!--<div class="nav isotope-filter">
       <div class="row">
         <div class="large-12 columns">
@@ -233,7 +242,7 @@
     </div>
   </div>
 </section>-->
-
+<!--
 <section id="about"></section>
   <div class="row">
     <div class="twelve columns">
@@ -274,39 +283,9 @@
         </div>
       </div>
 
-</section>
+</section>-->
 
- <section id="contact">
-  <div class="row">
-        <div class="twelve columns center">
-          <h4>If you're interested, feel free to contact me!</h4>
-          <h2 class="contact_link">
-            <a href="weizhuxiaona@gmail.com">
-            weizhuxiaona@gmail.com</a>
-            +1 (206) 295 - 0500
-          </h2>
-        </div>
-      </div>
-      <div class="row social">
-        <ul class="small-block-grid-9">
-          <li></li>
-          <!-- linkedin -->
-          <li><a href="https://www.linkedin.com/pub/nina-zhuxiaona-wei/52/860/88b/"  target="_blank"><img class="social_icon" src="images/linkedin.png"></a></li>
-          <!-- facebook -->
-          <li><a href="http://www.facebook.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/facebook.png"></a></li>
-          <!-- twitter -->
-          <li><a href="https://twitter.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/twitter.png"></a></li>
-          <!-- instagram -->
-          <li><a href="http://instagram.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/instagram.png"></a></li>
-          <!-- vimeo-->
-          <li><a href="https://vimeo.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/vimeo.png"></a></li>
-          <!-- flikr-->
-          <li><a href="https://www.flickr.com/people/weizhuxiaona/"  target="_blank"><img class="social_icon" src="images/flikr.png"></a></li>
-          <!-- quora-->
-          <li><a href="https://www.quora.com/Zhuxiaona-Wei-1"  target="_blank"><img class="social_icon" src="images/quora.png"></a></li>
-          <li></li>
-        </ul>
-      </div>
+
 
       <!--<div class="row credit">
         <div class="eight columns">
@@ -328,12 +307,47 @@
         </div>
       </div>-->
 
-    </section>
 
     <footer>
-      <h5>© 2014 Nina(Zhuxiaona) Wei. All rights reserved.</h5>
+      <section id="contact">
+  <div class="row">
+        <!--<div class="twelve columns center">
+          <h4>If you're interested, feel free to contact me!</h4>
+          <h2 class="contact_link">
+            <a href="weizhuxiaona@gmail.com">
+            weizhuxiaona@gmail.com</a>
+            +1 (206) 295 - 0500
+          </h2>
+        </div>
+      </div>-->
+      <div class="row social">
+        <ul class="small-block-grid-9">
+          <li></li>
+          <!-- linkedin -->
+          <li><a href="https://www.linkedin.com/pub/nina-zhuxiaona-wei/52/860/88b/"  target="_blank"><img class="social_icon" src="images/linkedin.png"></a></li>
+          <!-- facebook -->
+          <li><a href="http://www.facebook.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/facebook.png"></a></li>
+          <!-- twitter -->
+          <li><a href="https://twitter.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/twitter.png"></a></li>
+          <!-- instagram -->
+          <li><a href="http://instagram.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/instagram.png"></a></li>
+          <!-- vimeo-->
+          <li><a href="https://vimeo.com/weizhuxiaona" target="_blank"><img class="social_icon" src="images/vimeo.png"></a></li>
+          <!-- flikr-->
+          <li><a href="https://www.flickr.com/people/weizhuxiaona/"  target="_blank"><img class="social_icon" src="images/flikr.png"></a></li>
+          <!-- quora-->
+          <li><a href="https://www.quora.com/Zhuxiaona-Wei-1"  target="_blank"><img class="social_icon" src="images/quora.png"></a></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="twelve columns center">
+        <p class="copyright_text">Copyright © 2014 Nina(Zhuxiaona) Wei</p>
+      </div>
+    </section>
+    <p></p>
     </footer>
-    
-        
+<script>
+  $(document).foundation();
+</script>   
   </body>
 </html>

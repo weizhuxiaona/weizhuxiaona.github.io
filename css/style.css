@@ -51,20 +51,33 @@ table {
 
 /* Fonts */
 @font-face{
-	font-family: Lato;
-	src: url(../font/Lato-Light.ttf);
+	font-family: Roboto;
+	src: url(../font/Roboto-Light.ttf);
 }
 
 body{
-	font-family: Lato, sans-serif;
+	font-family: Roboto, Arial;
 }
 
 h1{
-	font-family: Lato;
-	font-size: 40px;
+	font-size: 48px;
 	line-height: 60px;
-	opacity: 0.9;
-	color: #555;
+	opacity: 1;
+	color: white;
+}
+
+h3{
+	font-size: 12px;
+	line-height: 48px;
+	padding: 20px 20px 20px 20px;
+	color: white;
+}
+
+p{
+	font-size: 12px;
+	line-height: 20px;
+	padding: 20px 20px 20px 20px;
+	color: white;
 }
 
 /*body {
@@ -86,6 +99,7 @@ h1{
 	max-width: 1024px;
 }
 */
+
 /* Intro section */
 #intro{
 	background: url(../images/index_bg.jpg) no-repeat fixed;
@@ -95,41 +109,24 @@ h1{
 	padding-top: 14%;
 }
 
-#intro h1{
-	font-family: Lato;
-	font-size: 48px;
-	line-height: 60px;
-	opacity: 1;
-	color: white;
-}
-
-#intro h3{
-	font-family: Lato;
-	font-size: 24px;
-	line-height: 36px;
-	opacity: 1;
-	color: white;
-	font-weight: 300;
-}
-
 #logo{
 	width: 60px;
 	float: left;
 }
 
 .intro_text{
+	font-family: Roboto;
 	font-size: 22px;
 	line-height: 32px;
-	font-family: Lato;
 	opacity: 1;
 	margin-top: 28%;
 	margin-left: 5%;
 	color: white;
 	font-weight: 300;
 }   
-
+/*
 .nav{
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 46px;
 	font-family: Lato;
 	width: 100%;
@@ -139,10 +136,10 @@ h1{
 }
 
 .nav a{
-	color: white;
+	font-family: Roboto;
 	opacity: 0.7;
 	padding-right: 15px;
-	font-family: Lato;
+	color: white;
 }
 
 .nav a:hover, .nav a:active{
@@ -157,21 +154,10 @@ h1{
 }
 
 /* Portfolio Section */
-/*#portfolio{
+#portfolio{
 	background-color: white;
 	min-height: 720px;
 	padding: 30px 0;
-}*/
-
-
-span.quote{
-	font-family: Lato;
-	font-size: 18px;
-	font-style: italic;
-	line-height: 36px;
-	opacity: 0.8;
-	color: #555;
-	padding-left: 10px;
 }
 
 ul.works{
@@ -227,138 +213,31 @@ ul.works img{
 	margin: 0 2px;
 }
 
-/* Album Wall */
-#album_wall{
-	background: url(../images/album_wall.jpg) no-repeat fixed;
-	min-height: 240px;
-	width: 100%;
-	background-size: auto 100%;	
+/* footer */
+footer{
+	background-color: #07C8EC;
+	min-height: 200px;
+	opacity: 0.85;
 }
-
-.center{
-	text-align: center;
-}
-
-#album_wall h1{
-	font-family: Cassannet;
-	font-size: 50px;
-	line-height: 60px;
-	opacity: 0.9;
+footer h3{
+	font-size: 12px;
+	line-height: 12px;
+	padding: 20px 20px 20px 20px;
+	font-family: Roboto;
 	color: white;
-	margin: 0 auto;
-	margin-top: 10%;
 }
-
-/* About Section */
-/*#about{
-	background-color: white;
-	min-height: 10px;
-	padding: 30px 0;
-}
-*/
-#profile{
-	width: 180px;
-}
-
-p.about_text{
+p.copyright_text{
 	font-size: 18px;
 	line-height: 24px;
-	font-family: Lato;
+	font-family: Roboto;
 	opacity: 0.8;
-	color: #333;
-	margin-bottom: 18px;
-}
-
-#about a{
-	color: #8c17a9;
-	font-weight: 600;
-	font-family: Lato, sans-serif;
-}
-
-#about a:hover{
-	color: #c969e0;
-}
-
-/* Hire Section */
-#hire{
-	background: url(../images/hire_bg.jpg) no-repeat fixed;
-	min-height: 360px;
-	width: 100%;
-	background-size: auto 100%;	
-}
-
-#hire h1{
-	font-family: Cassannet;
-	font-size: 36px;
-	line-height: 50px;
-	opacity: 0.9;
-	color: white;
-	margin-top: 16%;
-}
-
-
-/* Contact Section */
-#contact{
-	background-color: #07C8EC;
-	min-height: 300px;
-	opacity: 0.85;
-	color: white;
-	padding: 30px 0;
-}
-
-#contact a{
-	color: white;
-	text-decoration: underline;
-	font-family: Lato, sans-serif;
-}
-
-#contact a:hover{
 	color: white;
 }
-
-#contact h4{
-	font-size: 18px;
-	color: white;
-	font-family: Lato;
-}
-
-.contact_link{
-	font-weight: 700;
-	font-size: 28px;
-	padding: 25px 0;
-	text-decoration: none;
-	color: white;
-	font-family: Lato;
-}
-
 .social_icon{
 	height: 48px;
 }
 
 .social{
-	padding: 20px 0;
+	padding: 30px 0;
 }
 
-.credit{
-	padding-top: 10px;
-}
-
-p.contact_text{
-	font-size: 15px;
-	line-height: 22px;
-	padding-bottom: 8px;
-	padding-left: 50px;
-	font-family: Lato;
-}
-footer {
-	background-color: #07C8EC;
-	opacity: 0.85;
-}
-
-h5{
-	font-size: 12px;
-	line-height: 12px;
-	padding: 20px 20px 20px 20px;
-	font-family: Lato;
-	color: white;
-}
