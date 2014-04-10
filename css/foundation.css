@@ -40,7 +40,7 @@ body {
 
 body {
   background: white;
-  color: #222222;
+  color: #07C8EC;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -1224,7 +1224,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background: #07C8EC; }
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
 
@@ -1292,7 +1292,8 @@ meta.foundation-mq-topbar {
   .top-bar .toggle-topbar {
     position: absolute;
     right: 0;
-    top: 0; }
+    /*top: 0;*/
+    bottom: 0;}
     .top-bar .toggle-topbar a {
       color: white;
       text-transform: uppercase;
@@ -1328,9 +1329,9 @@ meta.foundation-mq-topbar {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #07C8EC; }
     .top-bar.expanded .toggle-topbar a {
-      color: #888888; }
+      color: #07C8EC; }
       .top-bar.expanded .toggle-topbar a::after {
         box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; }
 
@@ -1343,12 +1344,12 @@ meta.foundation-mq-topbar {
     width: 100%;
     height: auto;
     display: block;
-    background: #333333;
+    background: #07C8EC;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #1a1a1a;
+    border-top: solid 1px #07C8EC;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -1362,7 +1363,7 @@ meta.foundation-mq-topbar {
     font-size: 0.8125rem;
     font-weight: normal;
     text-transform: none;
-    background: #333333; }
+    background: #07C8EC; }
     .top-bar-section ul li > a.button {
       font-size: 0.8125rem;
       padding-right: 15px;
@@ -1514,8 +1515,8 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
-    *zoom: 1;
+    background: #07C8EC;
+    zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
       content: " ";
@@ -1535,7 +1536,7 @@ meta.foundation-mq-topbar {
       position: relative;
       top: 7px; }
     .top-bar.expanded {
-      background: #333333; }
+      background: #07C8EC; }
 
   .contain-to-grid .top-bar {
     max-width: 62.5rem;

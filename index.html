@@ -27,15 +27,15 @@
 
     <script src="js/foundation.min.js"></script>
 
-    <script src="/js/vendor/modernizr.js"></script>
-    <script src="/js/vendor/fastclick.js"></script>
-
     <script src="js/vendor/jquery.js"></script>
+    <script src="/js/vendor/fastclick.js"></script>
+    <script src="/js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.shuffle.js"></script>
 
-    <!--<script src="js/smoothscroll.js"></script>-->
+    <script src="js/smoothscroll.js"></script>
     
     <script type="text/javascript" src="js/main.js"></script>
+
     <!-- Analytics -->
     <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -48,38 +48,28 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
+
   </head>
 
   <body>
-    <div class="contain-to-grid sticky">
+  <div class="contain-to-grid fixed">
     <nav class="top-bar" data-topbar>
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="#">My Site</a></h1>
-    </li>
-    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-  </ul>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">Nina Wei | UX Designer</a></h1>
+        </li>
+      </ul>
 
-  <section class="top-bar-section">
+    <section class="top-bar-section">
     <!-- Right Nav Section -->
-    <ul class="right">
-      <li class="active"><a href="#">Right Button Active</a></li>
-      <li class="has-dropdown">
-        <a href="#">Right Button Dropdown</a>
-        <ul class="dropdown">
-          <li><a href="#">First link in dropdown</a></li>
-        </ul>
-      </li>
-    </ul>
-
-    <!-- Left Nav Section -->
-    <ul class="left">
-      <li><a href="#">Left Nav Button</a></li>
-    </ul>
-  </section>
-</nav>
+      <ul class="right">
+        <li class="active"><a href="#portfolio">PORTFOLIO</a></li>
+        <li class="active"><a href="Resume.pdf">RRESUME</a></li>
+        <li class="active"><a href="https://medium.com/@weizhuxiaona">UX BLOG</a></li>
+      </ul>
+    </section>
+  </nav>
 </div>
-<!--
     <section id="intro" class="bg">
       <div class="nav">
         <div class="row">
@@ -104,7 +94,6 @@
       </div>
       <div class="nav_bg"></div>
     </section> 
-  -->
 
     <section id="portfolio">
       <div class="row">
@@ -133,39 +122,36 @@
   <div class="row">
     <div class="large-4 columns">
       <a href="001.html"><img src="images/prototyping.jpg" /></a>
-      <h3>Prototyping Studio</h3>
+      <h4>Prototyping Studio</h4>
       <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis </p>
-      <p></p>
     </div>
     
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]" />
+      <a href="002.html"><img src="http://placehold.it/400x300&text=[img]" /></a>
       <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis </p>
+      <p class="portfolio_text">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis </p>
     </div>
     
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]" />
+      <a href="003.html"><img src="http://placehold.it/400x300&text=[img]" /></a>
       <h4>This is a content section.</h4>
       <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis </p>
     </div>
 
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]" />
+      <a href="004.html"><img src="http://placehold.it/400x300&text=[img]" /></a>
       <h4>This is a content section.</h4>
       <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis </p>
     </div>
 
-    <li>
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]" />
+      <a href="005.html"><img src="http://placehold.it/400x300&text=[img]" /></a>
       <h4>This is a content section.</h4>
       <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis </p>
     </div>
-    </li>
     
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]" />
+      <a href="006.html"><img src="http://placehold.it/400x300&text=[img]" /></a>
       <h4>This is a content section.</h4>
       <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis </p>
     </div>
@@ -346,6 +332,7 @@
     </section>
     <p></p>
     </footer>
+
 <script>
   $(document).foundation();
 </script>   
