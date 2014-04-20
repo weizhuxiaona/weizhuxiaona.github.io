@@ -137,67 +137,80 @@
     </div>
 
     <div class="row offset1">
-        <div id="video">
-            <div class="span10 offset1">
-                <iframe src="https://player.vimeo.com/video/88978595" width="600" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="span8">
+            <h1>Data Visualization</h1>
+            <br>
+
+            <h2>Final Project</h2>
+                <h4><em>present statistic data chart Sequentially VS Un-sequentially</em></h4>
+                
+                <h6>Collaborator: Christine Liu, Fork us on <a href="https://github.com/CSE512-14W/fp-zwei7-ytliu">Github</a>!</h6>
+                
+                <h4>Abstract</h4>
+                <p>The research focuses on the effectiveness of communicating a simple chart to audiences. The original hypothesis is that presenting a single statistic data chart sequentially works better than presenting it un-sequentially, in terms of the degree of understanding for audience. Base on the hypothesis, nine simple charts contain bar, line and scatter plot charts are chosen from The Economist with designed follow-up questions to conduct experiments for quantifying participants’ degree of understanding toward the chart on Amazon Mechanical Turk. After analyzing 180 responses, the results turns out that presenting a chart sequentially comes out with better results. However, statistically speaking, there is no significant difference between presenting the chart sequentially and un-sequentially. We analyzed and discussed the reasons behind, and addressed our limitations and future work by the end of the paper.</p>
+                
+                <h4>Final Poster Presentation</h4>
+                <img src="img\work\dataviz\poster.jpg" width="600" alt="Poster">
+                
+                <h4>Deliverables</h4>
+                <a href="https://drive.google.com/file/d/0B0llaJllU07paDNzR0l2TWpHNUE/edit?usp=sharing">Final Paper</a>, 
+                <a href="https://drive.google.com/file/d/0B0llaJllU07pUGo0LWhIS3Q4Zmc/edit?usp=sharing">Poster</a>, 
+                <a href="https://drive.google.com/file/d/0B0llaJllU07pS1ZldzJYUFlxbXc/edit?usp=sharing">Progress Slides</a>, 
+                <a href="https://drive.google.com/file/d/0B0llaJllU07pa0lSTndnbElIM1E/edit?usp=sharing">Progress Report</a>, 
+                <a href="https://drive.google.com/file/d/0B0llaJllU07pQkliR2xlVGJJMkE/edit?usp=sharing">Project Proposal</a> 
+
+                <br>
+                <br>
+
+            <h2>Interactive Visualization</h2>
+                <h4><em>How much money goes to farmers' pocket in your grocery spending?</em></h4>
+                <h6>Collaborator: Zening Qu, Fork us on <a href="https://github.com/CSE512-14W/a3-zwei7-zqu">Github</a>!</h6> 
+
+                <h4>Abstract</h4>
+                <p>This visulization aims to show users the comparison of retail price and farm price of those common food in grocery, particulay, the year span 2000-2012. Users could be able to input their own customized quantities of food, and to see the retail and farm price, as well as the farm/retail percentages, from two perspectives -- line chart and stacked bar.</p>
+
+                <h4>Visualization Screenshot</h4>
+                <p><a href="http://students.washington.edu/zqu/512A3/lines.html">Click me to play with our visualization!</a></p>
+                <img src="img\work\dataviz\food.png" width="600" alt="Food">
+
+                <h4>Lo-Fi Prototype</h4>
+                <img src="img\work\dataviz\lofi.png" width="600" alt="lo-Fi">
+
+                <h4>Hi-Fi Prototype</h4>
+                <img src="img\work\dataviz\hifi.png" width="600" alt="Hi-Fi">
+
+                <h4>Deliverables</h4>
+                <a href="https://drive.google.com/file/d/0B0llaJllU07peWtFR29QS1hnTW8/edit?usp=sharing">Story Board</a>
+
+                <br>
+                <br>
+
+            <h2>Exploratory Data Analysis</h2>
+                <h4>Abstract</h4>
+                <p>This visualization aims to explore different causes affect on flights delay and cancellation, as well as its weekly pattern during the December in 2009. The two line charts present the weekly pattern of flights delay and cancellation by five/four causes(Security, Weather, National Air System, Carrier, and Late Aircraft). The two bar charts describe the flights delay and cancellation of all the states (flights delay include states ad origin and as destination).</p>
+
+                <h4>Visualization</h4>
+                <img src="img\work\dataviz\viz.jpg" width="600" alt="Visualization">
+
+                <h4>Deliverables</h4>
+                <a href="https://drive.google.com/file/d/0B0llaJllU07pS3RxekttQng2Sk0/edit?usp=sharing">Exploration Notebook</a>
+
+                <br>
+                <br>
+
+            <h2>Visualization Design</h2>
+                <h4>Antibiotics Visualization</h4>
+                <img src="img\work\dataviz\antibiotics.jpg" width="800" alt="Visualization">
+
+                <h4>Design Rationale</h4>
+                <p>1.“lg(1/MIC)+3”represents the effectiveness of antibiotic</p>
+                <p>MIC, minimum inhibitory concentration represents the concentration of antibiotic required to prevent growth in vitro, so that the more MIC, the less effective. The inverse ratio is a bit hard to be read from visual or non visual context. Humans tend to consider the bigger, the better. Thus, I used “1/MIC” instead of MIC, to represent the effectiveness of the antibiotic. The difference between some data (i.e. 870 almost 10000 times than 0.001) is so huge that cannot be shown very well. Thus, I used “lg(1/MIC)” to shorten the huge difference. In order to make the negative number into positive one and avoid any ambiguity, I added a “3” to “lg(1/MIC)”. Thus, “lg(1/MIC)+3” - the Y-axis represents the effectiveness of antibiotic. The higher or larger of lg(1/MIC)+3”, the more effective.</p>
+
+                <p>2. I used three colors to differentiate three antibiotics, and used two transparent background colors to highlight different kinds of bacteria - positive and negative, thanks to which it is easier to tell whether a certain antibiotic is more effective for positive or negative bacteria.</p>
+
             </div>
         </div>
-        <div class="span5">
-            <h1>Farm Hand</h1>
-            <h4>Background</h4>
-                <p>This project is for 2014 Microsoft Design Expo, and this year's topic is "Design for Millions of Sensors". After several interative hot brainstormings, we were so interested in "Plant Intelligence". Then, we researched a lot and tried to find out a specific problem in real life. We decided to target organic farming, and aim to design a system that capture and visulize data and to help farmers better care of their plants and manage their farms.</p>
-                <p><strong>My Role:</strong> We worked together during the whole process, from ideation, research, to video prototype. Specifically, I contributed mainly to idea generation, secondary research, expert interview, existing concepts analysis and video prototype, and minorly to user interface design.</p>
-                <p><strong>Collaborator:</strong> Randy Huynh, Gavia Angell, Noble Woods, Stepanie Lin, and Cheryl Wang.</p>           
-            <h4>Design Process</h4>          
-                <p><strong>Problem Statement</strong></p>
-                <p><em>Enable informed and sustainable farming practices by providing users with the information and actions needed to save resources and prevent environmental degradation.</em></p>
-          
-                <p><strong>Research</strong></p>
-                <p><strong>1. Literature Review:</strong> We mainly relied on <a href="http://www.newyorker.com/reporting/2013/12/23/131223fa_fact_pollan?currentPage=all">THE INTELLIGENT PLANT</a> written by Michael Pollan. It said that plants have a kind of “intelligence” that humans are only recently becoming aware of: complex defense mechanisms, networks that communicate across huge distances, and the ability to exchange information and resources. Meanwhile, we did a lot agriculture research, to know more about the agriculture community, including general problems, existing technologies, and agriculture data visualization.</p>
-                <p><strong>2. Experts and Farmers Interview:</strong> We interviewed <a href="http://www.biology.washington.edu/news/postdoc-britney-moss-awarded-nih-fellowship">Dr.Britney Moss</a> an expert in plant bioengineer to know about current research and implementation of plant biology, at the same time, also interviewed three farmers, to know about how they managed their farms and the problems they faced.
-                <p><strong>Research Conclusion:</strong> The problems farmers are faced are pests, plant disease, soil quality and content and irrigation, and also it is so labor and time consuming for farmers to manage their large-scale farms. Technologies, like wearable sensor dvices, RFID, remote sensor system have been implemented into agriculture, especially <a href="http://www.sensorsandsystems.com/article/features/29160-precision-agriculture-sensors-drive-agricultural-efficiency.html">Precision Agiruculture</a>, leveraging sensors system to improve agriculture efficiency, we tended to build our system based on this new technology.</p>
-           
-                <p><strong>Concept</strong></p>
-                <p>Smart-Dust Sensors Network System</p>
-                <p>Farmers and home-gardeners spread smart-dust on their beds and fields to create a system of sensors to monitor plant health, soil and climate conditions. Information from the sensors feeds into an application, creating a map of contextual and relevant farming iformation.</p>
-                <p>There are three subsystems: nutrient and water management, plant and crop scheduling, pest control and containment systems</p>
-      
-                <p><strong>Prototype</strong></p>
-                <p>We designed (we discussed the information archtecture, content and user flow and interactions together, the interface is mainly designed by Randy) both mobile and tablet interface.</p>
-                <p>We created three scenarios -- Large-Scale Farm, Community Garden and Farm Garden for our video prototype. The storytelling is really important and useful for us to express our concept ideas.</p>
-
-            <h4>Deliverables</h4>
-                <p>
-                <a href="https://drive.google.com/file/d/0B0llaJllU07pWThCRk1Pc2JFREU/edit?usp=sharing">Final Presentation</a>, 
-                <a href="https://drive.google.com/file/d/0B0llaJllU07pNzJMZ1VOc2NiZWs/edit?usp=sharing">Video Prototype</a>, 
-                <a href="https://drive.google.com/file/d/0B0llaJllU07pNDJJYV9Tcm5JZVE/edit?usp=sharing">Process Book</a>
-
-            <h4>Methods and Tools</h4>
-                <p>Brainstorming, Expert Interview, Semi-Structured Interview, Sketching, Wireframing, Paper Prototype, Storytelling, Video Prototype, Presentation</p>  
-                <p>Adobe Illustrator, Apple Keynote</p>
-        </div>
-
-        <div class="span5">
-            <br>
-            <br>
-            <br>
-            <p>My Ideas</p>
-            <img src="img\work\farmhand\ideas.jpg" width="350" height="300" alt="My Ideas">
-            <p>Overview-Map Sketch (me)</p>
-            <img src="img\work\farmhand\overviewmap.jpg" width="350" height="300" alt="Overview Map Sketch">
-            <p>Smart-Dust Sensors Network System</p>
-            <img src="img\work\farmhand\system.jpg" width="350" height="250" alt="Smart-Dust Sensors Network System">
-            <p>Nutrient and Water, Scheduling, and Pests Subsystems</p>
-            <img src="img\work\farmhand\subsystem.jpg" width="350" height="250" alt="Subsystems">
-            <p>Interface</p>
-            <img src="img\work\farmhand\interface.jpg" width="350" height="250" alt="Interface">
-            <p>Video Prototype</p>
-            <a href="#video"><img src="img/work/farmhand/video.jpg" width="350" height="250" alt="Video Prototype"></a>      
-        </div>
-    </div>
     
-        
-   
         <div class="row">
             <div class="span12 offset1">
                 <a href="index.html#work"><span class="font-icon-arrow-light-round-left-circle"></span> Back</a>
