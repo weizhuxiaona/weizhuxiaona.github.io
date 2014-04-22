@@ -677,7 +677,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .title-page {
-	margin-bottom: 80px;	
+	margin-bottom: 30px;	
 }
 
 .title-page .title {
@@ -700,7 +700,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .type-work {
-	color: #4C4F55;
+	color: #000000;
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 1em;
@@ -720,8 +720,8 @@ nav#menu #menu-nav li a:hover {
 }
 
 .work-nav #filters li a {
-	color: #55606A;
-	font-size: 13px;
+	color: #000000;
+	font-size: 16px;
 	text-transform: uppercase;	
 	display: block;	
 }
