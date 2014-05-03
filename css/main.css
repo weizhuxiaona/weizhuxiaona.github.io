@@ -119,6 +119,11 @@ li {
 	text-decoration:line-through;
 }
 
+.container {
+    display: table;
+    vertical-align: middle;
+}
+
 input, button, select, textarea {
 	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
@@ -145,6 +150,7 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #55606A;
 }
+
 
 /* ==================================================
    Code and Pre
