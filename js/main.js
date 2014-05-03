@@ -54,8 +54,8 @@ CHAKRA.slider = function(){
 		start_slide             :   1,			// Start slide (0 is random)
 		stop_loop				:	0,			// Pauses slideshow on last slide
 		random					: 	0,			// Randomize slide order (Ignores start slide)
-		slide_interval          :   12000,		// Length between transitions
-		transition              :   2, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+		slide_interval          :   5000,		// Length between transitions
+		transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
 		transition_speed		:	300,		// Speed of transition
 		new_window				:	1,			// Image links open in new window/tab
 		pause_hover             :   0,			// Pause slideshow on hover
@@ -79,8 +79,9 @@ CHAKRA.slider = function(){
 		slides 					:  	[			// Slideshow Images
 											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content">FARM HAND</div>', thumb : '', url : ''},
 											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content">WAGGIT</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content">PROTOTYPING</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image04.jpg', title : '<div class="slide-content">GRAPHIC DESIGN</div>', thumb : '', url : ''}  
+											{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content">USER RESEARCH</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/image04.jpg', title : '<div class="slide-content">UI DESIGN</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/image05.jpg', title : '<div class="slide-content">PROTOTYPING</div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
