@@ -53,7 +53,7 @@ a:focus{
 }
 
 a img {
-	border: 2px;
+	border: none;
 }
 
 a > img {
@@ -670,7 +670,7 @@ nav#menu #menu-nav li a:hover {
 
 .page {
 	background: #F5F6F6;
-	padding: 100px 100px 100px 100px;
+	padding: 100px 0;
 	position: relative;
 	z-index: 99;
 }
