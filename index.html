@@ -12,6 +12,7 @@
     <title>Nina Wei | UX Designer</title>
 
     <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
 
@@ -445,8 +446,97 @@
                     <div class="col-lg-10 col-lg-offset-1">
 
                         <hr class="star-primary">
-                        <p>Coming Soon!</p>
+                        <img src="img/portfolio/waggit/overview.png" class="img-responsive img-centered">
 
+                        <hr class="star-primary">
+                        <h3>Your dog is unhappy T^T</h3>
+                        <hr class="star-primary">
+                        <p>It is really a problem for some of my teammates who have dogs. They are always very busy with their work and sometimes forget to walk their dogs. Though, I was unfamiliar with the dog walking service here, I was really curious, and wanted to make dogs happy:)</p>
+                        <p>We came up with our assumptioons, and then dived into research to find out the answers.</p>
+                        <ul>
+                            <li>Pet owners have difficulty finding service providers, particularly ones they feel they can trust, to provide services for their pets.</li>
+                            <li>Dog walkers have difficulty expanding their business because they are reliant on word of mouth.</li>
+                            <li>Trust in pet care providers is based on personal experience and the experience of a person’s social circle.</li>
+                            <li>Pet owners value social relationships with other pet owners.</li>
+                        </ul>
+
+                        <hr class="star-primary">
+                        <h3>Why dog owners and dog walkers are also unhappy?</h3>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/waggit/research.png" class="img-responsive img-centered">
+
+                        <hr class="star-primary">
+                        <h3>Bridge dog owners and dog walkers.</h3>
+                        <hr class="star-primary">
+                        <p>We found that there is a large gap in this market: No application exists to help dog owners find, hire, and book a dog walker.</p>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/waggit/gap.png" class="img-responsive img-centered">
+                        <hr class="star-primary">
+                        <p>We created affinity diagrams to analyze our research, and then created personas in order to better empathize the target users.</p>
+                        <hr class="star-primary">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li><img src="img/portfolio/waggit/persona1.png" class="img-responsive img-centered"></li>
+                                    <li><img src="img/portfolio/waggit/persona2.png" class="img-responsive img-centered"></li>
+                                    <li><img src="img/portfolio/waggit/persona3.png" class="img-responsive img-centered"></li>
+                                    <li><img src="img/portfolio/waggit/persona4.png" class="img-responsive img-centered"></li>
+                                    <li><img src="img/portfolio/waggit/owner.png" class="img-responsive img-centered"></li>
+                                    <li><img src="img/portfolio/waggit/walker.png" class="img-responsive img-centered"></li>
+                                </ul>
+                            </div>
+
+                        <hr class="star-primary">
+                        <h3>Design Process</h3>
+                        <hr class="star-primary">
+                        <p>We analyzed our stakeholders and the service structure, aftter several round ideation, heated-discussions, and sketched our ideas, we came up with our low-fidelity prototype.</p>
+                        <hr class="star-primary">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li><img src="img/portfolio/waggit/paper.png" class="img-responsive img-centered"></li>
+                                <li><img src="img/portfolio/waggit/structure.png" class="img-responsive img-centered"></li>
+                                <li><img src="img/portfolio/waggit/ideas.png" class="img-responsive img-centered"></li>
+                            </ul>
+                        </div>
+
+                        <hr class="star-primary">
+                        <h3>Iterative, iterative, iterative...</h3>
+                        <hr class="star-primary">
+                        <p>We tested with three users for our paper prototype, and refined some design features.</p>
+                        <p>User testing tasks</p>
+                        <ul>
+                            <li>Logging in</li>
+                            <li>Choosing a dog to be walked</li>
+                            <li>Searching for and selecting a dog walker</li>
+                            <li>Scheduling a walk</li>
+                            <li>Canceling a scheduled walk</li>
+                        </ul>
+                        <p>Changes from paper prototype</p>
+                        <ul>
+                            <li>Added header with profile, schedule, and search links</li>
+                            <li>Added detailed walker info (price, distance, rating) on walker search page</li>
+                            <li>Added confirmation popup for walk deletion</li>
+                            <li>Added confirmation popup for walk scheduling</li>
+                            <li>Made method of deleting scheduled walks more obvious (added (-) button)</li>
+                        </ul>
+
+                        <hr class="star-primary">
+                        <h3><a href="https://www.justinmind.com/usernote/tests/11387639/11389281/11406120/index.html#/screens/708727b0-51b5-4ecd-91a4-e900242b779a">Interactive Prototype V1, click me to have a try!</a></h3>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/waggit/high.png" class="img-responsive img-centered">
+
+                        <hr class="star-primary">
+                        <h3>My second iteration！</h3>
+                        <hr class="star-primary">
+                        <p>I started to refine this project after almost half a year, I did a quick heuristic evaluation, and found out main improvements as follows.</p>
+                        <ul>
+                            <li>Menu siderbar is too complex</li>
+                            <li>Lack of payment process</li>
+                            <li>Lack of visual design</li>
+                        </ul>
+                        <p>Here is the mockup for my second iteraction. Final visual design is stay tuned!</p>
+
+                        <hr class="star-primary">
+                        <img src="img/portfolio/waggit/mockups.png" class="img-responsive img-centered">
                         <hr class="star-primary">
                     </div>
 
@@ -969,6 +1059,15 @@
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.js"></script>
 <script src="js/main.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
 
 </body>
 
