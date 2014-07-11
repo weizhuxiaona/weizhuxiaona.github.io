@@ -1098,8 +1098,42 @@
 <script src="js/cbpAnimatedHeader.js"></script>
 <script src="js/jquery.flexslider.js"></script>
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
 <script type="text/javascript" charset="utf-8">
+var cbpAnimatedHeader = (function() {
+
+    var docElem = document.documentElement,
+        header = document.querySelector( '.navbar-fixed-top' ),
+        didScroll = false,
+        changeHeaderOn = 300;
+
+    function init() {
+        window.addEventListener( 'scroll', function( event ) {
+            if( !didScroll ) {
+                didScroll = true;
+                setTimeout( scrollPage, 250 );
+            }
+        }, false );
+    }
+
+    function scrollPage() {
+        var sy = scrollY();
+        if ( sy >= changeHeaderOn ) {
+            classie.add( header, 'navbar-shrink' );
+        }
+        else {
+            classie.remove( header, 'navbar-shrink' );
+        }
+        didScroll = false;
+    }
+
+    function scrollY() {
+        return window.pageYOffset || docElem.scrollTop;
+    }
+
+    init();
+
+})();
+
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -1109,14 +1143,14 @@ $(function() {
         event.preventDefault();
     });
 });
-</script>
 
-<script type="text/javascript" charset="utf-8">
 $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide"
   });
 });
+
+
 </script>
 
 </body>
