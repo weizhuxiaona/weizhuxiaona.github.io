@@ -67,7 +67,7 @@ p {
 .navbar {
     text-transform: uppercase;
     font-family: 'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .navbar a:focus {
@@ -269,6 +269,11 @@ footer {
 
 footer h3 {
     margin-bottom: 30px;
+}
+
+footer {
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
 }
 
 footer .footer-above {
