@@ -393,7 +393,7 @@ ul {
 }
 ul li {     
   list-style:none;
-  margin-bottom:10px;           
+  margin-bottom:25px;           
 }
 ul li img {
   cursor: pointer;
@@ -419,6 +419,7 @@ ul li img {
     float:right;
     text-align:right;
 }
+
 /*override modal for demo only
       .modal-dialog {
           max-width:500px;
