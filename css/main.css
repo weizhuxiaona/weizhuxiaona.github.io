@@ -421,24 +421,7 @@ ul li img {
     text-align:right;
 }
 
-/*override modal for demo only
-      .modal-dialog {
-          max-width:500px;
-          padding-top: 90px;
-      }
-      @media screen and (min-width: 768px){
-          .modal-dialog {
-              width:500px;
-              padding-top: 90px;
-          }          
-      }
-      @media screen and (max-width:1500px){
-          #ads {
-              display:none;
-          }
-      }
-      */
-      /* end gallery */
+
 
 .project-footer {
     width: 100%;
