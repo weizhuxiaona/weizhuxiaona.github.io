@@ -5,10 +5,12 @@ body {
 
 p {
     font-size: 16px;
+    font-weight: 300;
 }
 
 p.small {
     font-size: 14px;
+    font-weight: 300;
 }
 
 a,
