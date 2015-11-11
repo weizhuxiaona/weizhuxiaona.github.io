@@ -54,7 +54,7 @@
                             $(icon).insertBefore($(object));
                         }
                         else
-                            $(object).wrap('<div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url('+settings.icon+') center center no-repeat '+settings.color+';"></div>');
+                            $(object).wrap('<div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url('+settings.icon+') center center no-repeat '+settings.color+'; color:#FFF0F2"></div>');
                     }
                 }
             },
