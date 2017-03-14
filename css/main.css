@@ -153,8 +153,7 @@ a:active  {
   } 
 
 .underline {
-  border-bottom: 4px solid #7481FF; 
-  line-height: 100px;
+  border-bottom: 4px solid #ABB3FF; 
 }
 
 /* Larger than phablet */
