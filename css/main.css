@@ -123,9 +123,7 @@ body {
   background-color: #FFF;
 }
 
-.underline {
-  border-bottom: 2px solid red; 
-}
+
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
@@ -155,6 +153,10 @@ a:active  {
   /* Applies to activated links */
   text-decoration:  none;
   } 
+
+.underline {
+  border-bottom: 2px solid red; 
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
