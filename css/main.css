@@ -139,6 +139,23 @@ h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.6rem; line-height: 1.6;  letter-spacing: 0; }
 
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  } 
+
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
