@@ -118,7 +118,7 @@ body {
   font-size: 1.4em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 2em;
   font-weight: 400;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, serif;
+  font-family: "'Work Sans", Helvetica, Arial, sans-serif, serif;
   color: #222222;
   background-color: #FFF;
   margin-bottom: 20px;
@@ -139,23 +139,23 @@ h6 { font-size: 1.6rem; line-height: 1.6;  letter-spacing: 0; }
 a:link    {
   /* Applies to all unvisited links */
   text-decoration:  none;
-  } 
+  }
 a:visited {
   /* Applies to all visited links */
   text-decoration:  none;
-  } 
+  }
 a:hover   {
   /* Applies to links under the pointer */
   text-decoration:  none;
-  font-weight: 600; 
-  } 
+  font-weight: 600;
+  }
 a:active  {
   /* Applies to activated links */
   text-decoration:  none;
-  } 
+  }
 
 .underline {
-  border-bottom: 4px solid #ABB3FF; 
+  border-bottom: 4px solid #ABB3FF;
 }
 
 /* Larger than phablet */
