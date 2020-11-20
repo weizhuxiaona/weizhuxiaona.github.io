@@ -118,7 +118,7 @@ body {
   font-size: 1.4em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 2em;
   font-weight: 400;
-  font-family: "'Work Sans", Helvetica, Arial, sans-serif, serif;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif, serif;
   color: #222222;
   background-color: #FFF;
   margin-bottom: 20px;
