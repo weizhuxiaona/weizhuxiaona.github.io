@@ -147,6 +147,8 @@ sup {
 
 img {
   border-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
 }
 
 /* Forms
