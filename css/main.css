@@ -434,7 +434,7 @@ there.
   } */
 
 body {
-    /* margin: 0; */
+    /* margin: 0.8rem; */
     background-color: #f6f8ff;
   }
 
@@ -452,7 +452,15 @@ body {
   display: block;
   /* color: #eeeeee; */
   text-align: center;
-  padding: 1em;
+  padding: 1.6rem 0.8rem 1.6rem 0.8rem;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.4rem;
+}
+
+.footer {
+  background-color: #f2f4ff;
+  margin-top: 16rem;
+  padding: 1.6rem 0 1.6rem 0;
+  bottom: 0;
+  width: 100%;
 }
