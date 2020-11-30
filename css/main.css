@@ -160,7 +160,7 @@ a:active  {
   }
 
 .underline {
-  border-bottom: 2px solid #abb3ff;
+  border-bottom: 2px solid #ccc;
 }
 
 /* Larger than phablet */
@@ -443,24 +443,31 @@ body {
   background-color: #f2f4ff;
   position: fixed;
   text-align: center;
-  /* margin-left: 1em; */
   top: 0;
   width: 100%;
 }
 .navbar a {
   float: left;
   display: block;
-  /* color: #eeeeee; */
   text-align: center;
-  padding: 1.6rem 0.8rem 1.6rem 0.8rem;
+  padding: 1.6rem 0.8rem;
   text-decoration: none;
   font-size: 1.4rem;
+
+}
+
+.section {
+  margin-top: 10rem;
+  padding: 0 1.6rem;
+}
+.thumb {
+  margin-bottom: 2rem;
 }
 
 .footer {
   background-color: #f2f4ff;
   margin-top: 16rem;
-  padding: 1.6rem 0 1.6rem 0;
+  padding: 1.6rem;
   bottom: 0;
   width: 100%;
 }
